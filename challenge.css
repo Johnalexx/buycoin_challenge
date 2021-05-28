@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+/* Navbar and Links */
+.challenge-navbar{
+    color: white;
+    padding: 2px;
+    background-color: rgb(26, 21, 21);
+}
+.navbar-icon{
+    background-color: white;
+    width: 50px;
+    border-radius: 30px;
+}
+.profile-container{
+    float: left;
+    padding-top: 5px;
+}
+.pro-name{
+    font-family: monospace;
+}
+.pro-name-muted{
+    color: grey;
+}
+.profile-img{
+    border-radius: 70%;
+    height: 150px;
+}
+.nav-search{
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.header{
+    color: blue;
+}
