@@ -7,10 +7,27 @@ body{
     padding: 2px;
     background-color: rgb(26, 21, 21);
 }
+.dark-mode-control{
+    float: right;
+}
 .navbar-icon{
     background-color: white;
     width: 50px;
     border-radius: 30px;
+}
+.nav-search{
+    display: table;
+    /* width: 100%; */
+    max-width: 100%;
+    padding: 0;
+    font-size: inherit;
+    font-weight: 400;
+    color: var(--color-text-white);
+    vertical-align: middle;
+    background-color: transparent;
+    border: 0.5px solid grey;
+    border-radius: 2px;
+    box-shadow: none;
 }
 .profile-container{
     float: left;
@@ -47,6 +64,30 @@ body{
     width: 18px;
     height: 18px;
 }
+/* Repo */
+.form-control{
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-text-primary);
+    vertical-align: middle;
+    background-color: var(--color-input-bg);
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid var(--color-input-border);
+    border-radius: 6px;
+    outline: none;
+    box-shadow: var(--color-shadow-inset);
+}
+.width-full{
+
+}
+.repo-container{
+    position: relative;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    /* border-bottom: 1px solid green; */
+}
 /* Main Page Nav */
 .main-repo-nav{
 
@@ -70,11 +111,6 @@ hr{
 }
 .non-active:hover{
     border-bottom: 2px solid grey;
-}
-.nav-search{
-    color: white;
-    border-radius: 4px;
-    background-color: transparent;
 }
 .nav-links{
     width: 50%;
