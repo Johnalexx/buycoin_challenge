@@ -27,7 +27,7 @@ body{
     height: 150px;
 }
 .profile-with-moji{
-    
+    display: block;
 }
 .profile-moji-container{
     position: absolute;
@@ -44,6 +44,20 @@ body{
     align: absmiddle;
     width: 18px;
     height: 18px;
+}
+/* Main Page Nav */
+.main-repo-nav{
+
+}
+.repo-nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.active{
+    border-bottom: 2px solid orange;
 }
 .nav-search{
     color: white;
