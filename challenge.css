@@ -60,7 +60,14 @@ hr{
     list-style: none;
 }
 .active{
+    padding: 4px;
     border-bottom: 2px solid orange;
+}
+.non-active{
+    padding: 4px;
+}
+.non-active:hover{
+    border-bottom: 2px solid grey;
 }
 .nav-search{
     color: white;
