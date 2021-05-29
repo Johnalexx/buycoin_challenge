@@ -49,6 +49,9 @@ body{
 .main-repo-nav{
 
 }
+hr{
+    color: gray;
+}
 .repo-nav{
     width: 50%;
     display: flex;
