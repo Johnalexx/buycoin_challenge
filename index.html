@@ -16,7 +16,8 @@
      <!-- Icons Stylesheet -->
      <link rel="stylesheet" href="asset/iconfont/tabler-icons.min.css">
 
-     <!-- Script -->
+    <!-- Script -->
+    <script src="index.js"></script>
 
      <title>JGP - Johnalex GitProfile</title>
  </head>
@@ -37,7 +38,7 @@
                         <li>Explore</li>
 
                         <li class="dark-mode-control">
-                            <button class="dark" id="switch-bg">Dark Mode</button>
+                            <button class="dark" id="switch-bg" onclick="DarkSwitch()">Dark Mode</button>
                         </li>
                     </ul>
                 </div>
@@ -86,10 +87,45 @@
          </div>
          <div class="repo-container">
              <div class="repo-navbar">
-                <input type="search" class="form-control width-full" placeholder="Find a repository…" autocomplete="off" aria-label="Find a repository…" value="" data-throttled-autosubmit="">
+                 <div class="flex-repo-nav-content">
+                     <div class="dis-flex">
+                        <input type="search" class="find-repo-form-control" placeholder="Find a repository…" autocomplete="off" aria-label="Find a repository…" value="" data-throttled-autosubmit="">
+                        <!-- Select Fields -->
+                        <div class="select-fields">
+                            Type:
+                            <select name="">
+                                <option value="">All</option>
+                                <option value="">Organization</option>
+                                <option value="">Private</option>
+                                <option value="">Public</option>
+                              </select>
+                            Language:
+                            <select name="">
+                                <option value="">All</option>
+                                <option value="">Javascript</option>
+                                <option value="">css</option>
+                                <option value="">ReactJS</option>
+                              </select>
+                        </div>
+                       
+                     </div>
+                 </div>
              </div>
              <div class="single-repo-container">
-
+                <div class="single-repo">
+                    <div class="single-repo-title">
+                        Javascript_Data_Converter
+                    </div>
+                    <div class="single-repo-bio">
+                        Data converter built using Javascript...and can convert data in BYTE, KB, MB and GB
+                    </div>
+                    <div class="single-repo-info-badge">
+                        Javascript
+                    </div>
+                    <div class="star-placeholder">
+                        <span class="ti ti-bookmark"></span> Star
+                    </div>
+                </div>
              </div>
          </div>
      </div>

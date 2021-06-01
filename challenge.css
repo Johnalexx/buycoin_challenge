@@ -65,7 +65,10 @@ body{
     height: 18px;
 }
 /* Repo */
-.form-control{
+.find-repo-form-control{
+    width: 100%;
+    border: 1px solid gray;
+
     padding: 5px 12px;
     font-size: 14px;
     line-height: 20px;
@@ -74,19 +77,57 @@ body{
     background-color: var(--color-input-bg);
     background-repeat: no-repeat;
     background-position: right 8px center;
-    border: 1px solid var(--color-input-border);
     border-radius: 6px;
     outline: none;
     box-shadow: var(--color-shadow-inset);
 }
+.hor-line{
+    
+}
+.dis-flex{
+    display: flex;
+    flex-direction: row;
+}
+.select-fields{
+    float: right;
+}
 .width-full{
 
 }
+/* Repository Sections */
 .repo-container{
+    width: 70%;
+    left: 20%;
     position: relative;
     padding-top: 16px !important;
     padding-bottom: 16px !important;
     /* border-bottom: 1px solid green; */
+}
+.single-repo-container{
+    width: 100;
+}
+.single-repo{
+    border-radius: 40px;
+    background-color: skyblue;
+}
+.single-repo-title{
+    font-family: monospace;
+    font-size: 30px;
+}
+.single-repo-info-badge{
+    color: yellow;
+    /* background-color: white; */
+}
+.star-placeholder{
+    float: right;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.flex-repo-nav-content{
+    display: flex;
+    align-items: flex-start
 }
 /* Main Page Nav */
 .main-repo-nav{
